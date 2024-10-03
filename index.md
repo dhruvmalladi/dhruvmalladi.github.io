@@ -5,6 +5,11 @@ layout: home
 ---
 
 
+---
+layout: default
+title: Welcome to My Personal Site
+---
+
 <link rel="stylesheet" href="styles.css">
 
 <div class="container">
@@ -13,9 +18,17 @@ layout: home
         <!-- Profile picture (me.png) -->
         <img src="me.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
-        <p>Thank you for coming to my website! For the record, I am not the best coder by any means. Please let me know if you have any comments, questions, or concerns!</p>
+        <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
     </div>
-
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>About My Work</h1>
+        <p>As an ethnography researcher, I explore human cultures and heritage. Below is an image from my most recent project:</p>
+        
+        <!-- Example placeholder for another image -->
+        <img src="ethnography-photo.jpg" alt="Ethnography Project" class="content-photo">
+    </div>
 </div>
 
 
