@@ -13,7 +13,7 @@ layout: home
         <!-- Profile picture (astro.png) -->
         <img src="astro.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
-        <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
+        <p>Thank you for coming to my website. For the record, I am not the best coder by any means. Thank you to other GitHub users for helping, especially treemcgee42, for helping me design this website, especially when it came to doing HTML.</p>
     </div>
 
 </div>
