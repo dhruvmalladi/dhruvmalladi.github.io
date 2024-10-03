@@ -1,13 +1,18 @@
 ---
 layout: home
 ---
-<link rel="stylesheet" href="styles.css"> 
+---
+layout: default
+title: Welcome to My Personal Site
+---
 
+<link rel="stylesheet" href="styles.css">
 
 <div class="container">
     <!-- Sidebar -->
     <div class="sidebar">
-        <img src="myphoto.jpg" alt="My Photo" class="profile-pic">
+        <!-- Adding astro.png as your profile image -->
+        <img src="astro.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
         <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
     </div>
@@ -16,7 +21,9 @@ layout: home
     <div class="main-content">
         <h1>About My Work</h1>
         <p>As an ethnography researcher, I explore human cultures and heritage. Below is an image from my most recent project:</p>
-        <img src="photo1.jpg" alt="Ethnography Project" class="content-photo">
+        
+        <!-- Example placeholder for another image -->
+        <img src="ethnography-photo.jpg" alt="Ethnography Project" class="content-photo">
         
         <p>Click below to download my full ethnography research paper:</p>
         <a href="ethnography.pdf" download>Download My Research</a>
