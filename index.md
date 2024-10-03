@@ -27,14 +27,7 @@ title: Welcome to My Personal Site
         <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
     </div>
     
-    <!-- Main Content -->
-    <div class="main-content">
-        <h1>About My Work</h1>
-        <p>As an ethnography researcher, I explore human cultures and heritage. Below is an image from my most recent project:</p>
-        
-        <!-- Example placeholder for another image -->
-        <img src="ethnography-photo.jpg" alt="Ethnography Project" class="content-photo">
-    </div>
+
 </div>
 
 
