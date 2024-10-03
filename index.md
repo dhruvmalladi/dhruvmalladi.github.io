@@ -17,7 +17,6 @@ title: Welcome to My Personal Site
         <h2>Dhruv Malladi</h2>
         <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
     </div>
-    
 
 </div>
 
