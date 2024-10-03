@@ -11,7 +11,7 @@ layout: home
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Profile picture (astro.png) -->
-        <img src="astro.png" alt="My Photo" class="profile-pic">
+        <img src="me" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
         <p>Thank you for coming to my website. For the record, I am not the most advanced coder by any means. Thank you to other GitHub users for helping, especially treemcgee42, with this website, especially when it came to doing HTML.</p>
     </div>
