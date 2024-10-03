@@ -11,6 +11,11 @@ layout: default
 title: Welcome to My Personal Site
 ---
 
+---
+layout: default
+title: Welcome to My Personal Site
+---
+
 <link rel="stylesheet" href="styles.css">
 
 <div class="container">
@@ -31,6 +36,7 @@ title: Welcome to My Personal Site
         <img src="ethnography-photo.jpg" alt="Ethnography Project" class="content-photo">
     </div>
 </div>
+
 
 
 
