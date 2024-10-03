@@ -11,7 +11,7 @@ layout: home
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Profile picture (me.png) -->
-        <img src="me" alt="My Photo" class="profile-pic">
+        <img src="me.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
         <p>Thank you for coming to my website! For the record, I am not the best coder by any means. Please let me know if you have any comments, questions, or concerns!</p>
     </div>
