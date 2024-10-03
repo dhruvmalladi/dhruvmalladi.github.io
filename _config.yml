@@ -2,4 +2,15 @@ title: dhruv
 theme: minima
 baseurl: ""
 url: "https://dhruvmalladi.github.io"
-footer: false
+
+author:
+  name: Dhruv Malladi
+  email: dmalladi35@gmail.com
+
+# Social links
+social:
+  instagram: "https://www.instagram.com/dhruv_m120"
+  linkedin: "https://www.linkedin.com/in/dhruvmalladi"
+
+# Favicon
+favicon: "astro.png"
