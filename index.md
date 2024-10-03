@@ -6,15 +6,6 @@ layout: default
 title: Welcome to My Personal Site
 ---
 
----
-layout: default
-title: Welcome to My Personal Site
----
-
----
-layout: default
-title: Welcome to My Personal Site
----
 
 <link rel="stylesheet" href="styles.css">
 
