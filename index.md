@@ -5,11 +5,6 @@ layout: home
 ---
 
 
----
-layout: default
-title: Welcome to My Personal Site
----
-
 <link rel="stylesheet" href="styles.css">
 
 <div class="container">
