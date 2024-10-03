@@ -1,10 +1,6 @@
 ---
 layout: home
 ---
----
----
-
-
 <link rel="stylesheet" href="styles.css">
 
 <div class="container">
@@ -13,21 +9,29 @@ layout: home
         <!-- Profile picture (me.png) -->
         <img src="me.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
-        <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at dmalladi35@gmail.com if you have any concerns!</p>
+        <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns!</p>
     </div>
-   
 </div>
 
+<div class="main-content">
+    <!-- Main Introduction -->
+    <h1>Hello, I'm Dhruv!</h1>
 
+    <p>My name is <strong>Dhruv Malladi</strong>, and I'm currently a senior in high school. I live in Illinois and have several passions, ranging from squash, exploring nature on hikes, and learning more about my culture. This website is mainly an outlet for my anthropology work, which you will find on the <a href="/anthropology.html">Anthropology page</a>.</p>
 
+    <h2>My Passion for Anthropology</h2>
 
-My name is **Dhruv Malladi**, and I'm currently a senior in high school. I live in Illinois and have several passions, ranging from squash, exploring nature on hikes, and learning more about my culture. This website is mainly an outlet for my anthropology work, which you will find on the anthropology page.
+    <p>My passion for studying anthropology developed over time. From a young age, I was somewhat distant from my culture. Eventually, I began to realize the importance of studying culture in this large, diverse world we live in. Whether it was going through Manabadi school or taking history classes that helped shape my worldview, I now understand culture is the key factor that makes us unique as individuals.</p>
 
-My passion for studying anthropology came in many ways. From a young age, I was always somewhat distant from my culture. Over time, I began to realize the importance of studying culture in this large world we live in. Whether it was going through Manabadi school, or taking history classes that helped shape my worldview, I now understand culture is the underlying factor that makes us unique as individuals. 
+    <h2>My Cultural Identity</h2>
 
-On the topic of culture, cultural identities also look different for everyone. While I was born in America, my parents are Telugu. Being a Telugu-American comes with its hardships but also its positives. I am constantly striving to learn more about Telugu, and hopefully about myself as well.
+    <p>On the topic of culture, cultural identities look different for everyone. While I was born in America, my parents are Telugu. Being a Telugu-American comes with its challenges, but also many positives. I’m constantly striving to learn more about the Telugu language, and, hopefully, about myself along the way.</p>
 
-If you are here, I'm assuming I probably gave you the link to my website. Either way, thank you so much for coming to learn a little more about me! please don't hesitate to reach out to me if you have any questions.
+    <h2>Thank You for Visiting!</h2>
+
+    <p>If you’re here, I probably gave you the link to my website. Either way, thank you so much for coming to learn a little more about me! Please don’t hesitate to reach out if you have any questions.</p>
+</div>
+
 
 
 
