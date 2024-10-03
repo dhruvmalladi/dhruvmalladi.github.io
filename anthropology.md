@@ -1,6 +1,4 @@
 ---
-layout: page
-title: Anthropology Work
 ---
 
 # Anthropology Work
