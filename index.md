@@ -13,7 +13,7 @@ layout: home
         <!-- Profile picture (me.png) -->
         <img src="me.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
-        <p>Welcome to my personal website! I’m a passionate researcher in anthropology and a proud Telugu-American.</p>
+        <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at dmalladi35@gmail.com if you have any concerns!</p>
     </div>
    
 </div>
