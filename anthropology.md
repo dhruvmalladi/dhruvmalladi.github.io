@@ -1,8 +1,3 @@
----
----
-
-# Anthropology Work
-
 In my exploration of anthropology, I focus on the cultural practices of various communities. My work includes ethnographic research and community engagement projects.
 
 ## Research Interests
