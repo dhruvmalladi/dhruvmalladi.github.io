@@ -1,89 +1,103 @@
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Modern font family */
-    line-height: 1.6; /* Better readability */
-    background-color: #f4f4f4; /* Light background color */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    font-size: 1.1rem; /* Increased font size for normal text */
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color for contrast */
 }
 
-.container {
-    max-width: 800px; /* Limit width for better readability */
-    margin: 0 auto; /* Center the container */
-    padding: 20px; /* Add padding */
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Modern color for header */
+    padding: 10px 0;
+    text-align: center; /* Centered header text */
 }
 
-.profile-container {
-    text-align: center; /* Center the profile container */
-    background-color: white; /* White background */
-    padding: 20px; /* Padding inside profile container */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-bottom: 10px; /* Reduced space below profile */
+.site-title {
+    font-size: 2em; /* Title font size */
+    color: white; /* Title color */
 }
 
-.profile-pic {
-    width: 150px; /* Adjust profile picture size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular profile picture */
-    margin-bottom: 10px; /* Adjust this to reduce space below the picture */
-}
-
-.main-content {
-    padding: 20px; /* Padding for main content */
-}
-
-h1 {
-    text-align: center; /* Center headings */
-    color: #333; /* Dark color for headings */
-    margin-top: 10px; /* Adjust this if needed */
-    margin-bottom: 15px; /* Adjust this for space below the header */
-}
-
-h2 {
-    text-align: center; /* Center headings */
-    color: #333; /* Dark color for headings */
-}
-
-hr {
-    margin: 20px 0; /* Space above and below horizontal rule */
-}
-
-footer {
-    text-align: center; /* Center footer text */
-    margin-top: 20px; /* Space above footer */
-}
-
-.social-icon {
-    width: 30px; /* Set size for social icons */
-    margin: 0 10px; /* Space between icons */
-}
-
+/* Navigation Styles */
 nav {
-    display: flex;
-    justify-content: center; /* Center the navigation links */
-    background-color: #333; /* Dark background color for navigation */
-    padding: 15px 0; /* Padding around the navigation */
+    margin-top: 10px; /* Space above navigation */
 }
 
 .nav-links {
-    list-style: none; /* Remove default list styles */
-    display: flex; /* Align items horizontally */
-    gap: 30px; /* Space between links */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center navigation links */
 }
 
 .nav-links li {
-    margin: 0; /* No margin for list items */
+    margin: 0 15px; /* Space between links */
 }
 
 .nav-links a {
-    color: #f0f0f0; /* Light color for text */
-    text-decoration: none; /* Remove underline */
-    font-size: 1.2rem; /* Increased font size for navigation links */
-    font-weight: bold; /* Make the text bold */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    font-size: 1.1em; /* Increased font size for links */
+    padding: 5px 10px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
 .nav-links a:hover {
-    color: #ffdd57; /* Change color on hover for a modern look */
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Profile Container */
+.profile-container {
+    text-align: center; /* Centered text */
+    margin: 20px 0; /* Space above and below */
+    padding: 20px; /* Padding inside the box */
+    background-color: white; /* White background for profile box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px; /* Set picture width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular picture */
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px; /* Padding for main content */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+p {
+    line-height: 1.8; /* Adjust line height for better readability */
+    margin: 10px 0; /* Reduce the margin between paragraphs */
+    text-align: justify; /* Optional: Justify text if you prefer */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    margin: 20px 0; /* Space above and below the main heading */
+}
+
+h2 {
+    text-align: center; /* Center the section headings */
+    margin-top: 30px; /* Add some space above the headings */
+    margin-bottom: 15px; /* Add some space below the headings */
+    color: #333; /* Darker color for better contrast */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Centered footer text */
+    margin: 20px 0; /* Space above and below the footer */
+}
+
+.social-icon {
+    width: 30px; /* Icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between icons */
 }
