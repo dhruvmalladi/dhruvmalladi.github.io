@@ -13,4 +13,4 @@ social:
   linkedin: "https://www.linkedin.com/in/dhruvmalladi"
 
 # Favicon
-favicon: "astro.png"
+favicon: /astro.png
