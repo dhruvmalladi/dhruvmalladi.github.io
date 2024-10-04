@@ -40,6 +40,9 @@ h1, h2 {
 /* Paragraphs */
 p {
     margin-bottom: 15px; /* Space below paragraphs */
+    max-width: 600px; /* Limit max width for paragraphs */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
 }
 
 /* Horizontal Rule */
