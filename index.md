@@ -10,13 +10,6 @@ title: Home
         <h2>Dhruv Malladi</h2>
         <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns!</p>
     </div>
-    
-    <nav>
-        <ul class="nav-links">
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/anthropology.html' | relative_url }}">Anthropology</a></li>
-        </ul>
-    </nav>
 
     <div class="main-content">
         <h1>Hello, I'm Dhruv!</h1>
