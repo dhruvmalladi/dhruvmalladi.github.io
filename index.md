@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 <link rel="stylesheet" href="styles.css">
 
