@@ -3,7 +3,9 @@ layout: default
 title: Anthropology
 ---
 
-<div class="container">
+<link rel="stylesheet" href="/path/to/anthro.css">
+
+<div class="anthropology-container">
     <h1>Anthropology</h1>
 
     <div class="table-layout">
