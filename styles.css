@@ -1,55 +1,76 @@
 body {
-    font-family: 'Arial', sans-serif; /* Change to a more stylish font, e.g., Google Fonts */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Light background color for a clean look */
-    color: #333; /* Dark text for better contrast */
+    background-color: #f0f4f8; /* Light background color */
+    color: #333; /* Dark text for contrast */
 }
 
-.site-header {
-    background-color: #4a90e2; /* Header color */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+.container {
+    display: flex; /* Flexbox for sidebar and main content */
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Centering */
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1; /* Sidebar takes up one part */
+    padding: 20px;
+    background: #4a90e2; /* Sidebar color */
+    color: white; /* Text color in sidebar */
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 20px; /* Space between sidebar and content */
+}
+
+.sidebar img {
+    width: 100%; /* Responsive profile picture */
+    border-radius: 50%; /* Circle profile picture */
+}
+
+.main-content {
+    flex: 2; /* Main content takes up two parts */
+    padding: 20px;
+    background: white; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 h1 {
-    font-size: 2.5em; /* Larger font for your name */
-    margin: 0;
+    font-size: 2.5em; /* Larger font for main heading */
+    color: #2c3e50; /* Darker color for the main heading */
 }
 
-.tagline {
-    font-size: 1.2em; /* Smaller font for description */
-    font-style: italic;
+h2 {
+    color: #2980b9; /* Different color for subheadings */
 }
 
-.content {
-    max-width: 800px; /* Limit the width of main content */
-    margin: 20px auto; /* Center the content */
-    padding: 20px;
-    background: white; /* White background for readability */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+p {
+    margin-bottom: 15px; /* Space between paragraphs */
 }
 
-.site-footer {
-    text-align: center;
+a {
+    color: #2980b9; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    text-align: center; /* Centering footer text */
     padding: 20px 0;
-    background-color: #4a90e2; /* Match footer color with header */
-    color: white;
+    background-color: #4a90e2; /* Footer color */
+    color: white; /* Footer text color */
 }
 
 .social-links {
-    margin-top: 10px;
+    margin-top: 10px; /* Space for social links */
 }
 
 .social-links img {
-    width: 30px;  /* Adjust size as needed */
+    width: 30px; /* Icon size */
     height: auto; /* Maintain aspect ratio */
     margin: 0 10px; /* Space between icons */
-}
-
-.footer-content p {
-    margin: 5px 0; /* Better spacing for footer text */
 }
