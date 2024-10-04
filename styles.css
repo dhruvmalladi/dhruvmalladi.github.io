@@ -26,23 +26,27 @@ body {
     width: 150px; /* Adjust profile picture size */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 10px; /* Adjust this to reduce space below the picture */
 }
 
 .main-content {
     padding: 20px; /* Padding for main content */
 }
 
-h1, h2 {
+h1 {
+    text-align: center; /* Center headings */
+    color: #333; /* Dark color for headings */
+    margin-top: 10px; /* Adjust this if needed */
+    margin-bottom: 15px; /* Adjust this for space below the header */
+}
+
+h2 {
     text-align: center; /* Center headings */
     color: #333; /* Dark color for headings */
 }
 
-.section {
-    background-color: #ffffff; /* White background for sections */
-    padding: 20px; /* Padding inside sections */
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space below each section */
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+hr {
+    margin: 20px 0; /* Space above and below horizontal rule */
 }
 
 footer {
