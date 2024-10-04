@@ -5,6 +5,32 @@ body {
     color: #333;
 }
 
+header {
+    display: flex;
+    justify-content: space-between; /* Space between site title and nav links */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: #fff; /* White background for the header */
+    border-bottom: 2px solid #ccc; /* Light border below header */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display links in a row */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Bootstrap's primary color */
+    font-weight: bold; /* Make links bold */
+}
+
 .container {
     display: flex;
 }
@@ -14,10 +40,11 @@ body {
     padding: 20px;
     background-color: #fff;
     border-right: 2px solid #ccc;
+    text-align: center; /* Center text in the sidebar */
 }
 
 .profile-pic {
-    width: 100%;
+    width: 150px; /* Adjust the size of your image as needed */
     border-radius: 50%;
 }
 
@@ -59,3 +86,4 @@ footer {
     width: 30px;
     margin: 0 10px;
 }
+
