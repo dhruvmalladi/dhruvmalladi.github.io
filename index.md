@@ -39,13 +39,3 @@ title: Home
         <p>If you’re here, I probably gave you the link to my website. Either way, thank you so much for coming to learn a little more about me! Please don’t hesitate to reach out if you have any questions.</p>
     </div>
 </div>
-
-<footer>
-    <p>Connect with me:</p>
-    <a href="https://instagram.com/dhruv_m120" target="_blank">
-        <img src="/assets/insta.png" alt="Instagram" class="social-icon">
-    </a>
-    <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">
-        <img src="/assets/link.png" alt="LinkedIn" class="social-icon">
-    </a>
-</footer>
