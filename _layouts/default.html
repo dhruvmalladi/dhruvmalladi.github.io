@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | escape }}</title>
+    <link rel="stylesheet" href="/assets/main.css">
+    
+    <!-- Favicon (replace "favicon.png" with your actual favicon file name) -->
+    <link rel="icon" href="/astro.png" type="image/png">
+  </head>
+  <body>
+    <!-- Header section with your profile picture and name -->
+    <header class="site-header">
+      <div class="profile-container">
+        <img src="/me.png" alt="Dhruv Malladi" class="profile-pic">
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+      </div>
+    </header>
+
+    <!-- Main content of the page -->
+    <main class="content">
+      {{ content }}
+    </main>
+
+    <!-- Footer section with social media links -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ Dhruv Malladi }}. Thanks for visiting!.</p>
+        <div class="social-links">
+          <p>Connect with me:</p>
+          <a href="https://instagram.com/dhruv_m120" target="_blank">Instagram</a> |
+          <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
