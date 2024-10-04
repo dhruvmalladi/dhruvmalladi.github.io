@@ -1,69 +1,55 @@
-/* General Styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Change to a more stylish font, e.g., Google Fonts */
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9; /* Light background color for a clean look */
+    color: #333; /* Dark text for better contrast */
 }
 
-/* Layout */
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.sidebar {
-    flex: 1;
-    padding-right: 20px;
+.site-header {
+    background-color: #4a90e2; /* Header color */
+    color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
-.main-content {
-    flex: 2;
-    padding-left: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    border-radius: 10px;
-}
-
-/* Sidebar (Profile Image) */
-.sidebar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-/* Header Styles */
 h1 {
-    font-size: 2.5em;
-    color: #4A90E2;
+    font-size: 2.5em; /* Larger font for your name */
+    margin: 0;
 }
 
-h2 {
-    color: #4A90E2;
+.tagline {
+    font-size: 1.2em; /* Smaller font for description */
+    font-style: italic;
 }
 
-/* Paragraph Styles */
-p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    color: #666;
+.content {
+    max-width: 800px; /* Limit the width of main content */
+    margin: 20px auto; /* Center the content */
+    padding: 20px;
+    background: white; /* White background for readability */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Link Styles */
-a {
-    color: #4A90E2;
-    text-decoration: none;
+.site-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4a90e2; /* Match footer color with header */
+    color: white;
 }
 
-a:hover {
-    text-decoration: underline;
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links img {
+    width: 30px;  /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between icons */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Better spacing for footer text */
 }
