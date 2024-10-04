@@ -14,7 +14,7 @@ body {
 
 /* Container for the entire layout */
 .container {
-    max-width: 1200px; /* Maximum width for the main container */
+    max-width: 800px; /* Limit maximum width for better layout */
     margin: 0 auto; /* Center the container horizontally */
     padding: 20px; /* Add padding inside the container */
 }
@@ -60,9 +60,7 @@ nav {
 
 /* Main content section styles */
 .main-content {
-    max-width: 800px; /* Maximum width for main content */
-    margin: 0 auto; /* Center main content */
-    padding: 20px; /* Add padding inside main content */
+    padding: 20px; /* Add padding around main content */
 }
 
 h1 {
@@ -106,4 +104,3 @@ footer {
         width: 100px; /* Smaller profile picture on mobile */
     }
 }
-
