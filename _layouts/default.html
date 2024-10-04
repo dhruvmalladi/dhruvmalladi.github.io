@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | escape }}</title>
-    <link rel="stylesheet" href="/assets/main.css">
-    
-    <!-- Favicon (replace "favicon.png" with your actual favicon file name) -->
-    <link rel="icon" href="/astro.png" type="image/png">
-  </head>
-  <body>
-    <!-- Header section with your name and website title -->
-    <header class="site-header">
-      <h1>{{ site.title }}</h1>
-      <p class="tagline">{{ site.description }}</p>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/anthropology.html' | relative_url }}">Anthropology</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Main content of the page -->
-    <main class="content">
-      {{ content }}
-    </main>
-
-    <!-- Footer section with social media icons -->
-    <footer class="site-footer">
-      <div class="footer-content">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</p>
-        <div class="social-links">
-          <p>Connect with me:</p>
-          <a href="https://instagram.com/dhruv_m120" target="_blank">
-            <img src="/assets/insta.png" alt="Instagram" class="social-icon">
-          </a>
-          <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">
-            <img src="/assets/link.png" alt="LinkedIn" class="social-icon">
-          </a>
+    <div class="container">
+        <div class="sidebar">
+            <img src="/assets/me.png" alt="My Photo" class="profile-pic">
+            <h2>Dhruv Malladi</h2>
+            <p>Welcome to my personal website! Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns!</p>
         </div>
-      </div>
+
+        <div class="main-content">
+            {{ content }}
+        </div>
+    </div>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://instagram.com/dhruv_m120" target="_blank">
+            <img src="/assets/instagram.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">
+            <img src="/assets/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
     </footer>
-  </body>
+</body>
 </html>
 
-<link rel="stylesheet" href="/style.css">
 
