@@ -1,114 +1,109 @@
-/* Navigation */
-nav {
-    text-align: center; /* Center align navigation */
-    margin-bottom: 20px; /* Space below navigation */
-}
-
-.nav-links {
-    list-style: none; /* Remove bullets from list */
-    padding: 0; /* Remove default padding */
-    display: inline-flex; /* Use inline-flex for centering */
-    gap: 20px; /* Space between links */
-}
-
-.nav-links li {
-    display: inline; /* Inline list items */
-}
-
-.nav-links a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White text color */
-    background-color: #007BFF; /* Background color for links */
-    padding: 10px 15px; /* Padding around link text */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth background transition */
-}
-
-.nav-links a:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-}
-
-/* Basic Reset */
+/* General reset and body styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
-    font-family: 'Arial', sans-serif; /* Modern font */
-    line-height: 1.6;
-    background-color: #f4f4f4; /* Light background for a clean look */
-    color: #333; /* Dark text for contrast */
+    font-family: 'Arial', sans-serif; /* Simple and modern font */
+    line-height: 1.6; /* Increase line height for better readability */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    color: #333; /* Dark text color for readability */
 }
 
-/* Container */
+/* Container for the entire layout */
 .container {
-    max-width: 800px; /* Max width for readability */
-    margin: 20px auto; /* Centered on page */
-    padding: 20px; /* Padding around content */
-    background: #fff; /* White background for the main content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    text-align: center; /* Center text within container */
+    max-width: 1200px; /* Maximum width for the main container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
 }
 
-/* Profile Picture */
+/* Profile section styles */
+.profile-container {
+    text-align: center; /* Center align profile picture and text */
+    margin-bottom: 40px; /* Space below the profile section */
+}
+
 .profile-pic {
-    border-radius: 50%; /* Circular profile picture */
-    margin: 15px auto; /* Space below picture */
-    width: 150px; /* Set a specific size for the picture */
+    width: 150px; /* Set width of the profile picture */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make the image circular */
 }
 
-/* Headings */
+/* Navigation styles */
+nav {
+    text-align: center; /* Center the navigation links */
+    margin-bottom: 20px; /* Space below navigation */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    display: inline; /* Display links in a line */
+    margin: 0 15px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Link color */
+    font-weight: bold; /* Bold links for emphasis */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Main content section styles */
+.main-content {
+    max-width: 800px; /* Maximum width for main content */
+    margin: 0 auto; /* Center main content */
+    padding: 20px; /* Add padding inside main content */
+}
+
 h1 {
-    text-align: center; /* Center the main heading */
-    font-size: 2.5em; /* Size of main heading */
-    margin-bottom: 20px; /* Space below main heading */
-    color: #333; /* Color for main heading */
+    text-align: center; /* Center align main heading */
+    margin: 20px 0; /* Space above and below heading */
 }
 
 h2 {
-    text-align: center; /* Center section headings */
-    font-size: 2em; /* Size of section headings */
-    margin: 30px 0 10px; /* Space above and below section headings */
-    color: #007BFF; /* Color for section headings */
-    border-bottom: 2px solid #007BFF; /* Bottom border for section headings */
-    padding-bottom: 10px; /* Space below heading */
+    text-align: center; /* Center align subheadings */
+    margin: 20px 0; /* Space above and below subheadings */
+    border-bottom: 2px solid #007BFF; /* Blue line below subheading */
+    padding-bottom: 10px; /* Space between text and line */
 }
 
 p {
-    text-align: center; /* Center paragraph text */
-    max-width: 800px; /* Maximum width for paragraphs */
-    margin: 0 auto 20px; /* Center paragraphs and space below */
-    line-height: 1.6; /* Increase line height for readability */
-    color: #555; /* Color for paragraph text */
+    max-width: 600px; /* Limit width of paragraphs for readability */
+    margin: 20px auto; /* Center align paragraphs with space above and below */
+    color: #555; /* Slightly lighter text color */
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 15px; /* Space below paragraphs */
-    max-width: 600px; /* Limit max width for paragraphs */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-}
-
-/* Horizontal Rule */
-hr {
-    border: none; /* Remove default border */
-    border-top: 1px solid #ccc; /* Custom color for horizontal rule */
-    margin: 20px 0; /* Space above and below horizontal rule */
-}
-
-
-/* Footer */
+/* Footer styles */
 footer {
-    text-align: center; /* Center footer text */
-    margin-top: 30px; /* Space above footer */
+    text-align: center; /* Center align footer content */
+    margin-top: 40px; /* Space above footer */
 }
 
 .social-icon {
-    width: 30px; /* Set icon size */
+    width: 30px; /* Set width for social icons */
     margin: 0 10px; /* Space between icons */
+    vertical-align: middle; /* Align icons with text */
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links li {
+        display: block; /* Stack links vertically on small screens */
+        margin: 5px 0; /* Space between links */
+    }
+
+    .profile-pic {
+        width: 100px; /* Smaller profile picture on mobile */
+    }
+}
+
