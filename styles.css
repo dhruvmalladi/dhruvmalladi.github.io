@@ -21,12 +21,14 @@ body {
     background: #fff; /* White background for the main content */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* Center text within container */
 }
 
 /* Profile Picture */
 .profile-pic {
     border-radius: 50%; /* Circular profile picture */
-    margin-bottom: 15px; /* Space below picture */
+    margin: 15px auto; /* Space below picture */
+    width: 150px; /* Set a specific size for the picture */
 }
 
 /* Headings */
