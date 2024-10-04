@@ -1,45 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light background color for better contrast */
+    box-sizing: border-box;
 }
 
+/* Body */
+body {
+    font-family: 'Arial', sans-serif; /* Modern font */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background for a clean look */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Container */
 .container {
-    text-align: center; /* Centering the content */
-    margin: 20px;
+    max-width: 800px; /* Max width for readability */
+    margin: 20px auto; /* Centered on page */
+    padding: 20px; /* Padding around content */
+    background: #fff; /* White background for the main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-.profile-container {
-    margin-bottom: 20px;
-}
-
+/* Profile Picture */
 .profile-pic {
-    width: 150px; /* Small size for the profile picture */
-    border-radius: 50%; /* Optional: makes the image round */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 15px; /* Space below picture */
 }
 
+/* Headings */
 h1, h2 {
-    color: #333; /* Darker color for headings */
+    color: #333; /* Consistent dark color for headings */
+    margin: 15px 0; /* Space above and below headings */
 }
 
-.main-content {
-    margin: 0 20px; /* Slight margin for main content */
+/* Paragraphs */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
 }
 
+/* Horizontal Rule */
 hr {
-    margin: 20px 0; /* Space around horizontal lines */
-    border: 1px solid #ccc; /* Light gray color for lines */
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Custom color for horizontal rule */
+    margin: 20px 0; /* Space above and below horizontal rule */
 }
 
+/* Navigation */
+nav {
+    text-align: right; /* Align navigation to the right */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullets from list */
+}
+
+.nav-links li {
+    display: inline; /* Inline list items */
+    margin-left: 15px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Link color */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Footer */
 footer {
-    text-align: center;
-    margin: 20px 0;
+    text-align: center; /* Center footer text */
+    margin-top: 30px; /* Space above footer */
 }
 
 .social-icon {
-    width: 30px; /* Adjust size for social media icons */
+    width: 30px; /* Set icon size */
     margin: 0 10px; /* Space between icons */
 }
