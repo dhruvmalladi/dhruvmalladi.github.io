@@ -11,7 +11,6 @@ title: Home
         <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns!</p>
     </div>
 </div>
-
 <div class="main-content">
     <h1>Hello, I'm Dhruv!</h1>
 
@@ -39,12 +38,3 @@ title: Home
     </div>
 </div>
 
-<footer>
-    <p>Connect with me:</p>
-    <a href="https://instagram.com/dhruv_m120" target="_blank">
-        <img src="/assets/insta.png" alt="Instagram" class="social-icon">
-    </a>
-    <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">
-        <img src="/assets/link.png" alt="LinkedIn" class="social-icon">
-    </a>
-</footer>
