@@ -73,3 +73,24 @@ h2 {
 .download-link:hover {
     background-color: #218838; /* Download link hover color */
 }
+.anthropology-table {
+    width: 100%; /* Make the table width 100% of the container */
+    border-collapse: collapse; /* Collapse borders to remove double lines */
+    margin-top: 20px; /* Space above the table */
+}
+
+.anthropology-table td {
+    border: 1px solid #ccc; /* Light gray border for table cells */
+    padding: 20px; /* Padding inside the cells */
+    text-align: center; /* Center-align text */
+}
+
+.section-header {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.section-content {
+    background-color: #ffffff; /* White background for content */
+    font-size: 1rem; /* Set font size for content */
+}
