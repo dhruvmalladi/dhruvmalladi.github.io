@@ -1,111 +1,85 @@
-/* General reset and body styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Arial', sans-serif; /* Simple and modern font */
-    line-height: 1.6; /* Increase line height for better readability */
-    background-color: #f9f9f9; /* Light background color for contrast */
-    color: #333; /* Dark text color for readability */
+    font-family: 'Arial', sans-serif; /* Modern font family */
+    line-height: 1.6; /* Better readability */
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 1.1rem; /* Increased font size for normal text */
 }
 
-/* Container for the entire layout */
 .container {
-    max-width: 800px; /* Limit maximum width for better layout */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add padding inside the container */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
 }
 
-/* Profile section styles */
 .profile-container {
-    text-align: center; /* Center align profile picture and text */
-    margin-bottom: 40px; /* Space below the profile section */
-    padding: 20px; /* Add padding inside the box */
-    background-color: white; /* White background for the box */
-    border-radius: 10px; /* Rounded corners for the box */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the profile container */
+    background-color: white; /* White background */
+    padding: 20px; /* Padding inside profile container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below profile */
 }
 
 .profile-pic {
-    width: 150px; /* Set width of the profile picture */
+    width: 150px; /* Adjust profile picture size */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image circular */
-    margin-bottom: 20px; /* Space below the image */
+    border-radius: 50%; /* Circular profile picture */
 }
 
-/* Navigation styles */
-nav {
-    text-align: center; /* Center the navigation links */
-    margin-bottom: 20px; /* Space below navigation */
-}
-
-.nav-links {
-    list-style-type: none; /* Remove bullet points from list */
-    padding: 0; /* Remove default padding */
-}
-
-.nav-links li {
-    display: inline; /* Display links in a line */
-    margin: 0 15px; /* Space between links */
-}
-
-.nav-links a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007BFF; /* Link color */
-    font-weight: bold; /* Bold links for emphasis */
-    transition: color 0.3s; /* Smooth color transition on hover */
-}
-
-.nav-links a:hover {
-    color: #0056b3; /* Darker shade on hover */
-}
-
-/* Main content section styles */
 .main-content {
-    padding: 20px; /* Add padding around main content */
+    padding: 20px; /* Padding for main content */
 }
 
-h1 {
-    text-align: center; /* Center align main heading */
-    margin: 20px 0; /* Space above and below heading */
+h1, h2 {
+    text-align: center; /* Center headings */
+    color: #333; /* Dark color for headings */
 }
 
-h2 {
-    text-align: center; /* Center align subheadings */
-    margin: 20px 0; /* Space above and below subheadings */
-    border-bottom: 2px solid #007BFF; /* Blue line below subheading */
-    padding-bottom: 10px; /* Space between text and line */
+.section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below each section */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
 }
 
-p {
-    max-width: 600px; /* Limit width of paragraphs for readability */
-    margin: 20px auto; /* Center align paragraphs with space above and below */
-    color: #555; /* Slightly lighter text color */
-}
-
-/* Footer styles */
 footer {
-    text-align: center; /* Center align footer content */
-    margin-top: 40px; /* Space above footer */
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Space above footer */
 }
 
 .social-icon {
-    width: 30px; /* Set width for social icons */
+    width: 30px; /* Set size for social icons */
     margin: 0 10px; /* Space between icons */
-    vertical-align: middle; /* Align icons with text */
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .nav-links li {
-        display: block; /* Stack links vertically on small screens */
-        margin: 5px 0; /* Space between links */
-    }
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    background-color: #333; /* Dark background color for navigation */
+    padding: 15px 0; /* Padding around the navigation */
+}
 
-    .profile-pic {
-        width: 100px; /* Smaller profile picture on mobile */
-    }
+.nav-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Align items horizontally */
+    gap: 30px; /* Space between links */
+}
+
+.nav-links li {
+    margin: 0; /* No margin for list items */
+}
+
+.nav-links a {
+    color: #f0f0f0; /* Light color for text */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Increased font size for navigation links */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: #ffdd57; /* Change color on hover for a modern look */
 }
