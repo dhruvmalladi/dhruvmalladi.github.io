@@ -1,76 +1,61 @@
 body {
-    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f4f8; /* Light background color */
-    color: #333; /* Dark text for contrast */
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .container {
-    display: flex; /* Flexbox for sidebar and main content */
-    max-width: 1200px; /* Maximum width for the container */
-    margin: 0 auto; /* Centering */
-    padding: 20px;
+    display: flex;
 }
 
 .sidebar {
-    flex: 1; /* Sidebar takes up one part */
+    width: 250px;
     padding: 20px;
-    background: #4a90e2; /* Sidebar color */
-    color: white; /* Text color in sidebar */
-    border-radius: 8px; /* Rounded corners */
-    margin-right: 20px; /* Space between sidebar and content */
+    background-color: #fff;
+    border-right: 2px solid #ccc;
 }
 
-.sidebar img {
-    width: 100%; /* Responsive profile picture */
-    border-radius: 50%; /* Circle profile picture */
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .main-content {
-    flex: 2; /* Main content takes up two parts */
+    flex-grow: 1;
     padding: 20px;
-    background: white; /* White background for content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1, h2 {
+    color: #007BFF; /* Bootstrap's primary color */
 }
 
 h1 {
-    font-size: 2.5em; /* Larger font for main heading */
-    color: #2c3e50; /* Darker color for the main heading */
+    font-size: 2.5em;
 }
 
 h2 {
-    color: #2980b9; /* Different color for subheadings */
+    font-size: 2em;
 }
 
 p {
-    margin-bottom: 15px; /* Space between paragraphs */
+    margin-bottom: 15px;
 }
 
-a {
-    color: #2980b9; /* Link color */
-    text-decoration: none; /* Remove underline */
-}
-
-a:hover {
-    text-decoration: underline; /* Underline on hover */
+hr.divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
 }
 
 footer {
-    text-align: center; /* Centering footer text */
-    padding: 20px 0;
-    background-color: #4a90e2; /* Footer color */
-    color: white; /* Footer text color */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
 }
 
-.social-links {
-    margin-top: 10px; /* Space for social links */
-}
-
-.social-links img {
-    width: 30px; /* Icon size */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Space between icons */
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
 }
