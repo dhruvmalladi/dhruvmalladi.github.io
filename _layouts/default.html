@@ -10,21 +10,29 @@
     <link rel="icon" href="/astro.png" type="image/png">
   </head>
   <body>
-   
+    <!-- Header section with your name and website title -->
+    <header class="site-header">
+      <h1>{{ site.title }}</h1>
+      <p class="tagline">{{ site.description }}</p>
+    </header>
 
     <!-- Main content of the page -->
     <main class="content">
       {{ content }}
     </main>
 
-    <!-- Footer section with social media links -->
+    <!-- Footer section with social media icons -->
     <footer class="site-footer">
       <div class="footer-content">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ Dhruv Malladi }}. Thanks for visiting!.</p>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</p>
         <div class="social-links">
           <p>Connect with me:</p>
-          <a href="https://instagram.com/dhruv_m120" target="_blank">Instagram</a> |
-          <a href="https://linkedin.com/in/dhruvmalladi" target="_blank">LinkedIn</a>
+          <a href="https://instagram.com/yourusername" target="_blank">
+            <img src="/assets/instagram.png" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank">
+            <img src="/assets/linkedin.png" alt="LinkedIn" class="social-icon">
+          </a>
         </div>
       </div>
     </footer>
