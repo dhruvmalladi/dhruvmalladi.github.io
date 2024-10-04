@@ -25,14 +25,14 @@ body {
     margin-bottom: 40px; /* Space below the profile section */
     padding: 20px; /* Add padding inside the box */
     background-color: white; /* White background for the box */
-    border-radius: 10px; /* Optional: rounded corners for the box */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .profile-pic {
     width: 150px; /* Set width of the profile picture */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: make the image circular */
+    border-radius: 50%; /* Make the image circular */
     margin-bottom: 20px; /* Space below the image */
 }
 
