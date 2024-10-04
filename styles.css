@@ -1,89 +1,45 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-header {
-    display: flex;
-    justify-content: space-between; /* Space between site title and nav links */
-    align-items: center; /* Center items vertically */
-    padding: 20px;
-    background-color: #fff; /* White background for the header */
-    border-bottom: 2px solid #ccc; /* Light border below header */
-}
-
-.nav-links {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    display: flex; /* Display links in a row */
-}
-
-.nav-links li {
-    margin-left: 20px; /* Space between links */
-}
-
-.nav-links a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007BFF; /* Bootstrap's primary color */
-    font-weight: bold; /* Make links bold */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color for better contrast */
 }
 
 .container {
-    display: flex;
+    text-align: center; /* Centering the content */
+    margin: 20px;
 }
 
-.sidebar {
-    width: 250px;
-    padding: 20px;
-    background-color: #fff;
-    border-right: 2px solid #ccc;
-    text-align: center; /* Center text in the sidebar */
+.profile-container {
+    margin-bottom: 20px;
 }
 
 .profile-pic {
-    width: 150px; /* Adjust the size of your image as needed */
-    border-radius: 50%;
-}
-
-.main-content {
-    flex-grow: 1;
-    padding: 20px;
+    width: 150px; /* Small size for the profile picture */
+    border-radius: 50%; /* Optional: makes the image round */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 h1, h2 {
-    color: #007BFF; /* Bootstrap's primary color */
+    color: #333; /* Darker color for headings */
 }
 
-h1 {
-    font-size: 2.5em;
+.main-content {
+    margin: 0 20px; /* Slight margin for main content */
 }
 
-h2 {
-    font-size: 2em;
-}
-
-p {
-    margin-bottom: 15px;
-}
-
-hr.divider {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin: 20px 0;
+hr {
+    margin: 20px 0; /* Space around horizontal lines */
+    border: 1px solid #ccc; /* Light gray color for lines */
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
+    margin: 20px 0;
 }
 
 .social-icon {
-    width: 30px;
-    margin: 0 10px;
+    width: 30px; /* Adjust size for social media icons */
+    margin: 0 10px; /* Space between icons */
 }
-
