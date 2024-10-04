@@ -19,7 +19,7 @@ body {
     padding: 20px; /* Padding inside profile container */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-bottom: 20px; /* Space below profile */
+    margin-bottom: 10px; /* Reduced space below profile */
 }
 
 .profile-pic {
