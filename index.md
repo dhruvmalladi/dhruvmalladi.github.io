@@ -8,7 +8,7 @@ title: Home
         <!-- Profile picture (me.png) -->
         <img src="/assets/me.png" alt="My Photo" class="profile-pic">
         <h2>Dhruv Malladi</h2>
-        <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns!</p>
+        <p>Welcome to my personal website! To make it clear, I am not the best coder by any means. Please email me at <a href="mailto:dmalladi35@gmail.com">dmalladi35@gmail.com</a> if you have any concerns at all!</p>
     </div>
 </div>
 
