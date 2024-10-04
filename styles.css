@@ -1,3 +1,33 @@
+/* Navigation */
+nav {
+    text-align: center; /* Center align navigation */
+    margin-bottom: 20px; /* Space below navigation */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullets from list */
+    padding: 0; /* Remove default padding */
+    display: inline-flex; /* Use inline-flex for centering */
+    gap: 20px; /* Space between links */
+}
+
+.nav-links li {
+    display: inline; /* Inline list items */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    background-color: #007BFF; /* Background color for links */
+    padding: 10px 15px; /* Padding around link text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.nav-links a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
 /* Basic Reset */
 * {
     margin: 0;
