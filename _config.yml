@@ -24,16 +24,16 @@ author:
   avatar           : "me.png"
   name             : "Dhruv Malladi"
   pronouns         : # example: "he/him/his"  
-  bio              : "Hi! Thank you so much for stopping by my website. Please check out other pages of me."
-  location         : 
-  employer         : 
+  bio              : "Hi! Thank you so much for stopping by my website. Please check out other more of me by clicking on the navigation links above.."
+  location         : "Vernon Hills, IL"
+  employer         : "Life Time Fitness"
   uri              : # URL
   email            : "dmalladi35@gmail.com" 
 
 
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -42,7 +42,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "dhruvmalladi"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
