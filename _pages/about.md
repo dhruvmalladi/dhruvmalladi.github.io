@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "A Little Bit About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-A Little Bit About Me
+
 ======
 My name is Dhruv Malladi, and I'm a prospective college student. I live in the suburbs of Illinois, in a pretty big town called Vernon Hills, about a 40-minute drive to Chicago. If you are here, I'm guessing I probably gave you the link— either way, thank you for stopping by and taking the opportunity to get to know me better.
 
