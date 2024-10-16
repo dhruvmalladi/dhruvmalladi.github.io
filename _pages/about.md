@@ -1,7 +1,10 @@
 ---
-layout: home
-title: "Welcome to Dhruv Malladi's Website"
 permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 A Little Bit About Me
 ======
