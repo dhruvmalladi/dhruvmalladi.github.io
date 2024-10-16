@@ -31,6 +31,6 @@ redirect_from:
   </p>
 
   <p>
-    Anyways, thank you for stopping by. Research is linked under the Research Tab. To contact me, just click the Contact Me tab. For my Resume, please click the Resume tab and download it. Have a great day!
+    Anyways, thank you for stopping by. Research is linked under the Research Tab. To contact me, just click the email on the sidetab. For my Resume, please click the Resume tab and download it. Have a great day!
   </p>
 </div>
