@@ -1,3 +1,8 @@
+---
+layout: home
+title: "Welcome to Dhruv Malladi's Website"
+permalink: /
+---
 A Little Bit About Me
 ======
 My name is Dhruv Malladi, and I'm a prospective college student. I live in the suburbs of Illinois, in a pretty big town called Vernon Hills, about a 40-minute drive to Chicago. If you are here, I'm guessing I probably gave you the link— either way, thank you for stopping by and taking the opportunity to get to know me better.
