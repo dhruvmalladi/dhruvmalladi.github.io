@@ -5,32 +5,75 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="research-section">
 
-{% include base_path %}
+  <!-- Ethnography Project -->
+  <div class="research-row">
+    <div class="research-image">
+      <!-- If you have an image related to the ethnography, add it here -->
+      <img src="/path/to/ethnography-image.jpg" alt="Ethnography Project Image" style="width: 200px;">
+    </div>
+    <div class="research-description">
+      <h2>Ethnography on the Telugu Community in Lake County, IL</h2>
+      <p>
+        My ethnography project focuses on exploring the cultural and linguistic evolution of the Telugu community in Lake County, IL. Through extensive fieldwork, I documented generational differences and cultural practices, delving into how Telugu-Americans maintain their heritage while adapting to American society.
+      </p>
+    </div>
+  </div>
+  
+  <hr>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <!-- Project UNITY -->
+  <div class="research-row">
+    <div class="research-image">
+      <!-- If you have an image related to Project UNITY, add it here -->
+      <img src="/path/to/unity-image.jpg" alt="Project UNITY Image" style="width: 200px;">
+    </div>
+    <div class="research-description">
+      <h2>Project UNITY: Cardiac Health Awareness</h2>
+      <p>
+        As a lead intern in Project UNITY’s cardiac group, I contributed to raising awareness about coronary artery disease, particularly within the African American community. My research highlighted health disparities and offered actionable solutions, culminating in the award for best research paper.
+      </p>
+    </div>
+  </div>
+  
+  <hr>
 
+  <!-- SCARF -->
+  <div class="research-row">
+    <div class="research-image">
+      <!-- If you have an image related to SCARF, add it here -->
+      <img src="/path/to/scarf-image.jpg" alt="SCARF Project Image" style="width: 200px;">
+    </div>
+    <div class="research-description">
+      <h2>Sudden Cardiac-death Awareness Research Foundation (SCARF)</h2>
+      <p>
+        During my internship with SCARF, I conducted research on sudden cardiac death prevention and worked on public health initiatives to spread awareness. This project involved extensive collaboration with medical professionals to promote early detection and prevention strategies.
+      </p>
+    </div>
+  </div>
+  
+</div>
 
+<style>
+.research-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+.research-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.research-description {
+  flex: 1;
+}
+
+.research-image img {
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
