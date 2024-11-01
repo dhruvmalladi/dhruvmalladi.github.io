@@ -7,5 +7,5 @@ redirect_from:
   - /resume
 ---
 
-<a href="/files/Dhruv_Resume.pdf" target="_blank" download>DOWNLOAD MY RESUME HERE</a>
+<a href="/files/FINAL_DhruvCommonAppResume.docx.pdf" target="_blank" download>DOWNLOAD MY RESUME HERE</a>
 
