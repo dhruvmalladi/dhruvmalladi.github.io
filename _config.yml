@@ -21,7 +21,7 @@ repository               : "dhruvmalladi/dhruvmalladi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "nature.png"
+  avatar           : 
   name             : "Dhruv Malladi"
   pronouns         : # example: "he/him/his"  
   bio              : "Hi! Thank you so much for stopping by my website. Please check out more of me by clicking the navigation links above."
